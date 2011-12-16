@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3914A414888DDF00BFBD75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3914A314888DDF00BFBD75 /* UIKit.framework */; };
+		ED3914A614888DDF00BFBD75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3914A514888DDF00BFBD75 /* Foundation.framework */; };
+		ED3914A814888DDF00BFBD75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3914A714888DDF00BFBD75 /* CoreGraphics.framework */; };
+		ED3914AE14888DDF00BFBD75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3914AC14888DDF00BFBD75 /* InfoPlist.strings */; };
+		ED3914B014888DDF00BFBD75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3914AF14888DDF00BFBD75 /* main.m */; };
+		ED3914B414888DDF00BFBD75 /* NTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3914B314888DDF00BFBD75 /* NTKAppDelegate.m */; };
+		ED3914B714888DDF00BFBD75 /* NTKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3914B614888DDF00BFBD75 /* NTKViewController.m */; };
+		ED3914BA14888DDF00BFBD75 /* NTKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3914B814888DDF00BFBD75 /* NTKViewController.xib */; };
+		EDBD19261488B17C005E8C13 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDBD19251488B17C005E8C13 /* AVFoundation.framework */; };
+		EDBD19281488B400005E8C13 /* Track1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EDBD19271488B400005E8C13 /* Track1.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED39149F14888DDF00BFBD75 /* SingOneSong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingOneSong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3914A314888DDF00BFBD75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED3914A514888DDF00BFBD75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED3914A714888DDF00BFBD75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED3914AB14888DDF00BFBD75 /* SingOneSong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingOneSong-Info.plist"; sourceTree = "<group>"; };
+		ED3914AD14888DDF00BFBD75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3914AF14888DDF00BFBD75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3914B114888DDF00BFBD75 /* SingOneSong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingOneSong-Prefix.pch"; sourceTree = "<group>"; };
+		ED3914B214888DDF00BFBD75 /* NTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTKAppDelegate.h; sourceTree = "<group>"; };
+		ED3914B314888DDF00BFBD75 /* NTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTKAppDelegate.m; sourceTree = "<group>"; };
+		ED3914B514888DDF00BFBD75 /* NTKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTKViewController.h; sourceTree = "<group>"; };
+		ED3914B614888DDF00BFBD75 /* NTKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTKViewController.m; sourceTree = "<group>"; };
+		ED3914B914888DDF00BFBD75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NTKViewController.xib; sourceTree = "<group>"; };
+		EDBD19251488B17C005E8C13 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EDBD19271488B400005E8C13 /* Track1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Track1.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED39149C14888DDF00BFBD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBD19261488B17C005E8C13 /* AVFoundation.framework in Frameworks */,
+				ED3914A414888DDF00BFBD75 /* UIKit.framework in Frameworks */,
+				ED3914A614888DDF00BFBD75 /* Foundation.framework in Frameworks */,
+				ED3914A814888DDF00BFBD75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED39149414888DDF00BFBD75 = {
+			isa = PBXGroup;
+			children = (
+				ED3914A914888DDF00BFBD75 /* SingOneSong */,
+				ED3914A214888DDF00BFBD75 /* Frameworks */,
+				ED3914A014888DDF00BFBD75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3914A014888DDF00BFBD75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED39149F14888DDF00BFBD75 /* SingOneSong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3914A214888DDF00BFBD75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD19251488B17C005E8C13 /* AVFoundation.framework */,
+				ED3914A314888DDF00BFBD75 /* UIKit.framework */,
+				ED3914A514888DDF00BFBD75 /* Foundation.framework */,
+				ED3914A714888DDF00BFBD75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3914A914888DDF00BFBD75 /* SingOneSong */ = {
+			isa = PBXGroup;
+			children = (
+				ED3914B214888DDF00BFBD75 /* NTKAppDelegate.h */,
+				ED3914B314888DDF00BFBD75 /* NTKAppDelegate.m */,
+				ED3914B514888DDF00BFBD75 /* NTKViewController.h */,
+				ED3914B614888DDF00BFBD75 /* NTKViewController.m */,
+				ED3914B814888DDF00BFBD75 /* NTKViewController.xib */,
+				ED3914AA14888DDF00BFBD75 /* Supporting Files */,
+			);
+			path = SingOneSong;
+			sourceTree = "<group>";
+		};
+		ED3914AA14888DDF00BFBD75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDBD19271488B400005E8C13 /* Track1.m4a */,
+				ED3914AB14888DDF00BFBD75 /* SingOneSong-Info.plist */,
+				ED3914AC14888DDF00BFBD75 /* InfoPlist.strings */,
+				ED3914AF14888DDF00BFBD75 /* main.m */,
+				ED3914B114888DDF00BFBD75 /* SingOneSong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED39149E14888DDF00BFBD75 /* SingOneSong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3914BD14888DDF00BFBD75 /* Build configuration list for PBXNativeTarget "SingOneSong" */;
+			buildPhases = (
+				ED39149B14888DDF00BFBD75 /* Sources */,
+				ED39149C14888DDF00BFBD75 /* Frameworks */,
+				ED39149D14888DDF00BFBD75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingOneSong;
+			productName = SingOneSong;
+			productReference = ED39149F14888DDF00BFBD75 /* SingOneSong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED39149614888DDF00BFBD75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ED39149914888DDF00BFBD75 /* Build configuration list for PBXProject "SingOneSong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED39149414888DDF00BFBD75;
+			productRefGroup = ED3914A014888DDF00BFBD75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED39149E14888DDF00BFBD75 /* SingOneSong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED39149D14888DDF00BFBD75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3914AE14888DDF00BFBD75 /* InfoPlist.strings in Resources */,
+				ED3914BA14888DDF00BFBD75 /* NTKViewController.xib in Resources */,
+				EDBD19281488B400005E8C13 /* Track1.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED39149B14888DDF00BFBD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3914B014888DDF00BFBD75 /* main.m in Sources */,
+				ED3914B414888DDF00BFBD75 /* NTKAppDelegate.m in Sources */,
+				ED3914B714888DDF00BFBD75 /* NTKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED3914AC14888DDF00BFBD75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3914AD14888DDF00BFBD75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED3914B814888DDF00BFBD75 /* NTKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3914B914888DDF00BFBD75 /* en */,
+			);
+			name = NTKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3914BB14888DDF00BFBD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED3914BC14888DDF00BFBD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3914BE14888DDF00BFBD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingOneSong/SingOneSong-Prefix.pch";
+				INFOPLIST_FILE = "SingOneSong/SingOneSong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED3914BF14888DDF00BFBD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingOneSong/SingOneSong-Prefix.pch";
+				INFOPLIST_FILE = "SingOneSong/SingOneSong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED39149914888DDF00BFBD75 /* Build configuration list for PBXProject "SingOneSong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3914BB14888DDF00BFBD75 /* Debug */,
+				ED3914BC14888DDF00BFBD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3914BD14888DDF00BFBD75 /* Build configuration list for PBXNativeTarget "SingOneSong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3914BE14888DDF00BFBD75 /* Debug */,
+				ED3914BF14888DDF00BFBD75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED39149614888DDF00BFBD75 /* Project object */;
+}
