@@ -38,7 +38,7 @@
 					<object class="IBUIButton" id="693984143">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{124, 160}, {72, 37}}</string>
+						<string key="NSFrame">{{75, 160}, {170, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="985788195"/>
@@ -48,7 +48,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">&gt;A</string>
+						<string key="IBUINormalTitle">Play/Stop Audio File</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="1040339774">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -74,7 +74,7 @@
 					<object class="IBUIButton" id="985788195">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{56, 212}, {72, 37}}</string>
+						<string key="NSFrame">{{34, 212}, {116, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="286559725"/>
@@ -84,7 +84,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">St</string>
+						<string key="IBUINormalTitle">Start Record</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1040339774"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -97,7 +97,7 @@
 					<object class="IBUIButton" id="286559725">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{194, 212}, {72, 37}}</string>
+						<string key="NSFrame">{{173, 212}, {114, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="60073546"/>
@@ -107,7 +107,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Sp</string>
+						<string key="IBUINormalTitle">Stop Record</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1040339774"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -120,7 +120,7 @@
 					<object class="IBUIButton" id="60073546">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{124, 263}, {72, 37}}</string>
+						<string key="NSFrame">{{85, 263}, {150, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -130,7 +130,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">&gt;R</string>
+						<string key="IBUINormalTitle">Play Record File</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1040339774"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
@@ -279,17 +279,12 @@
 					<string key="className">NTKViewController</string>
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="a:">id</string>
 						<string key="playAudioClicked:">id</string>
 						<string key="playRecordClicked:">id</string>
 						<string key="startRecordClicked:">id</string>
 						<string key="stopRecordClicked:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="a:">
-							<string key="name">a:</string>
-							<string key="candidateClassName">id</string>
-						</object>
 						<object class="IBActionInfo" key="playAudioClicked:">
 							<string key="name">playAudioClicked:</string>
 							<string key="candidateClassName">id</string>
